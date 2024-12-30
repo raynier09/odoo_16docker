@@ -42,13 +42,6 @@ docker exec -it <container name> <command>
 docker exec -it odoo_15 /bin/bash 
 ```
 
-> Update the POS BIR Module
-```
-docker-compose restart web
-
-docker exec -it odoo_15 odoo -d <db_name> --db_host db -r odoo15 -w odoo15 -u pos_bir_cpti --stop-after-init
-```
-
 > Update all Odoo Module
 ```
 docker-compose restart web
