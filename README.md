@@ -13,14 +13,9 @@ Installation
 
 ```
 mkdir addons
-mkdir addons/pos_bir
+
 mkdir enterprise
 ```
-
-> Clone enterprise repository inside of enterprise directory
-
-> Clone pos_bir modules inside of addons/pos_bir
-
 ### Start the command
 ```
 docker-compose up 
