@@ -1,4 +1,4 @@
-## Odoo v15 using Docker and Docker Compose
+## Odoo v16 using Docker and Docker Compose
 
 
 ### Prerequisite
